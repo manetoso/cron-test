@@ -1,0 +1,26 @@
+{
+  "name": "cron-test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r esm app.js",
+    "dev": "nodemon  -r esm app.js"
+  },
+  "keywords": [],
+  "author": "Arkaraj",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "node-cron": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "*",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "lowdb": "^3.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
